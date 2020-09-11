@@ -1,66 +1,99 @@
-    .iframeContainer {
-        padding: 20px;
-        border: 1px solid #e3e3e3;
-    }
-    .h2, h2 {
+.iframeContainer {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+.h2,
+h2 {
     font-size: 1.7rem;
     font-weight: bold;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
 }
-    html {
-        position: relative;
-        min-height: 100%;
-    }
-    
-    img {
-        vertical-align: middle;
-        border-style: none;
-    }
-    
-    header {
-        padding-left: 0px;
-        text-align: left;
-        background: #1abc9c;
-        color: rgb(8, 16, 133);
-        font-size: 20px;
-        width: 1110px;
-    }
-    
-    body {
-        /* Padding bottom by footer height */
-        padding-bottom: 80px;
-        background-image: url(img/digital_globe11.jpg);
-    }
-    
-    #footer {
-        position: absolute;
-        bottom: 0;
-        width: 1110px;
-        /* Set the fixed height of the footer here */
-        height: 10px;
-        color: white;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        text-align: center;
-        background-color: #1abc9c;
-        padding-right: 30px;
-    }
-    /* article */
-    
-    .article {
-        font-size: 18px;
-        font-family: Arial;
-        color: rgb(0, 0, 0);
-        line-height: 1.7;
-        text-align: justify;
-        text-justify: inter-word;
-        padding-right: 30px;
-        background-color: rgb(255, 255, 255);
-        padding: 20px;
-        width: 1110px;
-    }
-    
-    #footer p {
-        margin: 0;
-        font-size: 16px;
-    }
-    /* Mobile Rules */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+header {
+    padding-left: 0px;
+    text-align: left;
+    background: #1abc9c;
+    color: rgb(8, 16, 133);
+    font-size: 20px;
+    width: 1110px;
+}
+
+#author p {
+    font-size: 0.75rem;
+    color: #767676;
+}
+
+#author h1 {
+    font-size: 18px;
+    color: rgb(8, 16, 133);
+    font-weight: bold;
+}
+
+body {
+    /* Padding bottom by footer height */
+    padding-bottom: 80px;
+    background-image: url(img/digital_globe11.jpg);
+}
+
+#footer {
+    position: absolute;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    bottom: 0;
+    width: 1110px;
+    /* Set the fixed height of the footer here */
+    height: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #1abc9c;
+    padding-right: 30px;
+}
+
+
+/* article */
+
+.article {
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+    text-align: left;
+    text-justify: inter-word;
+    padding-right: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    width: 1110px;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    font-weight: 50;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    color: #121212;
+}
+
+#footer p {
+    margin: 0;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    font-size: 16px;
+}
+
+
+/* Mobile Rules */
+
+
+/* Mobile Rules */
