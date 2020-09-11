@@ -2,10 +2,7 @@
         padding: 20px;
         border: 1px solid #e3e3e3;
     }
-    .h2, h2 {
-    font-size: 1.7rem;
-    font-weight: bold;
-}
+    
     html {
         position: relative;
         min-height: 100%;
@@ -28,7 +25,7 @@
     body {
         /* Padding bottom by footer height */
         padding-bottom: 80px;
-        background-image: url(img/digital_globe11.jpg);
+        background-image: url(imgdigital_globe11.jpg);
     }
     
     #footer {
