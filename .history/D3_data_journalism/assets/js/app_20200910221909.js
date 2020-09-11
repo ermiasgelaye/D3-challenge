@@ -50,7 +50,7 @@ xText
     .attr("class", "aText inactive x");
 xText
     .append("text")
-    .text("Household Income (Median)")
+    .text("Househole Income (Median)")
     .attr("y", 26)
     .attr("data-name", "income")
     .attr("data-axis", "x")
