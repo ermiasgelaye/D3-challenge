@@ -5,11 +5,12 @@
 
 ## Background
 
-Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
-
-The editor wants to run a series of feature stories about the health risks facing particular demographics. She's counting on you to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
-
-The data set included with the assignment is based on 2014 ACS 1-year estimates: [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml), but you are free to investigate a different data set. The current data set incldes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
+These repository investigate the relationship between income, obesity, poverty with demographic factors and health risks for 50 states and the District of Columbia in the United States of America. Median age, household income, and poverty rates are plotted against the smoking, lack of healthcare, and obesity rates for each state or district.
+### Key Findings:
+- States or districts with lower income or higher poverty rates show higher rates of health risks.
+- The findings from the data show that there is a positive correlation between the states or districts poverty rate (%), and the rate of risk factors % (Obese, Smokers, and Lack of Health Care).
+- There is a negative correlation between household income (Median), and the rate of risk factors % (Obese, smokes, and lack of health care).
+- The age demographic is densely populated within the middle age range from age 30-45.
 
 
 ### Core Assignment: D3 Dabbler (Required Assignment)
