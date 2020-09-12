@@ -33,9 +33,6 @@ It is vague to conclude the relationship between age, and health risks from the 
 The dashboard looks as follows:
 <img src="Images/all.gif" height="500" width="900" />
 
-
-## Over All layout
-
 ## Deployment
 
 ## About the Data
