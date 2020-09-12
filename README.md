@@ -1,6 +1,6 @@
 # D3 Homework - Data Journalism and D3
 
-![Newsroom](http://community.datacamp.com.s3.amazonaws.com/community/production/ckeditor_assets/pictures/179/content_datajournalismvisual.png)
+![Newsroom](https://www.tibco.com/blog/wp-content/uploads/2014/11/TIBCO-Spotfire-Data-Journalism-Stories-by-Number2-620x360.jpg)
 
 ## Background
 
