@@ -1,6 +1,6 @@
 # D3 Homework - Data Journalism and D3
 
-![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
+![Newsroom](http://community.datacamp.com.s3.amazonaws.com/community/production/ckeditor_assets/pictures/179/content_datajournalismvisual.png)
 
 ## Background
 
