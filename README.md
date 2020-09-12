@@ -34,7 +34,7 @@ The dashboard looks as follows:
 <img src="Images/all.gif" height="500" width="900" />
 
 ## Deployment
-This app is deployed public on GitHub page, click the following link to see how it looks like
+This app is deployed public on GitHub page, click the following link to see how it looks like [D3 Time Home page](https://ermiasgelaye.github.io/D3-challenge/)
 
 ## About the Data
 [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml),
