@@ -21,12 +21,12 @@ The chart showing the relationship between health factors (x-axis) obese, smokes
 
 ### Correlations Discovered Between Health Risks and Age, Income
 
-### Poverty Rate or Household Income (Median) Versus Health Risks
+- Poverty Rate or Household Income (Median) Versus Health Risks
 The findings from the data show that there is a positive correlation between the state or district poverty rate (%), and the rate of risk factors % (Obese, Smokers, and Lack of Health Care). When the poverty rate is higher the tendency to get obese, and bing smoker is higher. Lack of health care is also directly related to the poverty rate. In the finding, there is also a negative correlation between household income (Median), and the rate of risk factors % (Obese, smokes, and lack of health care). When income getting higher the prevalence of the risk factors becomes lower.
 
 Researches also showed that socioeconomic status can be determined by a family's income level, education level, and occupational status. (Cowan CD & et al. 2012) In spite of the differences in definition between poverty and socioeconomic status, researchers agree that there is a clear, and established relationship between poverty, socioeconomic status, and health outcomes, including increased risk for disease and premature death.(Wagstaff. A 2002)
 
-### Age Versus Health Risks
+- Age Versus Health Risks
 It is vague to conclude the relationship between age, and health risks from the data. However, the age demographic is densely populated within the middle age range from age 30-45. Studies showed that middle-age is the wider age range of lifetime, and at this stage, people start experiencing different life-threatening health factors. People with a good lifestyle and socio-economic status will cope successfully at this stage.
 
 
