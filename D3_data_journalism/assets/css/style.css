@@ -95,5 +95,14 @@ h3 {
 
 /* Mobile Rules */
 
-
-/* Mobile Rules */
+@media screen and (max-width: 530px) {
+    .article {
+        width: 500px;
+    }
+    header {
+        width: 500px;
+    }
+    #footer {
+        width: 500px;
+    }
+}

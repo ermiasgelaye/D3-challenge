@@ -65,6 +65,9 @@
     .aText {
         font-size: 14px;
     }
+    .chart {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 400px) {
