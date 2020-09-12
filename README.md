@@ -1,4 +1,5 @@
-# Data Journalism: An Interactive Dashboard on the Current Trends and Health Factors that Shaping People's Lives in the United States of America.
+# Data Journalism 
+### An Interactive Dashboard on the Current Trends and Health Factors that Shaping People's Lives in the United States of America
 
 <img src="https://www.tibco.com/blog/wp-content/uploads/2014/11/TIBCO-Spotfire-Data-Journalism-Stories-by-Number2-620x360.jpg" height="500" width="900" />
 
