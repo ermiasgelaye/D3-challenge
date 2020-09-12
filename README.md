@@ -1,6 +1,9 @@
 # D3 Homework - Data Journalism and D3
 
-![Newsroom](https://www.tibco.com/blog/wp-content/uploads/2014/11/TIBCO-Spotfire-Data-Journalism-Stories-by-Number2-620x360.jpg)
+
+
+<img src="https://www.tibco.com/blog/wp-content/uploads/2014/11/TIBCO-Spotfire-Data-Journalism-Stories-by-Number2-620x360.jpg" height="400" width="400" />
+
 
 ## Background
 
