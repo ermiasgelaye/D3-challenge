@@ -17,7 +17,7 @@ These repository investigate the relationship between income, obesity, poverty w
 
 The chart showing the relationship between health factors (x-axis) obese, smokes, lack of health care with demographic factors (y-axis) age, household income, and poverty rate. To see the relationships, click on any of the font color green factors from the horizontal (x-axis) or vertical panel (y-axis), when the font color changed to black it means it’s active in the chart.The data points for each state represented by the blue-black background scatter plots in the active chart, the state code written on it with white font, and hover over it to see the detail information.
 
-<img src="Images/plot.gif" height="500" width="500" />
+<img src="Images/plot.gif" class="center"/>
 
 ## Correlations Discovered Between Health Risks and Age, Income
 
