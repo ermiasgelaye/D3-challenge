@@ -1,44 +1,72 @@
-## Data Journalism: An Interactive Dashboard on the Current Trends and Health Factors that Shaping People's Lives in the United States of America
-<br>
-<br>
-<img src="https://www.tibco.com/blog/wp-content/uploads/2014/11/TIBCO-Spotfire-Data-Journalism-Stories-by-Number2-620x360.jpg" height="500" width="900" />
+# Data Journalism with D3: Health Risks vs. Demographics
 
-## Background
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
+![D3.js](https://img.shields.io/badge/D3.js-v5-F9A03C?logo=d3dotjs&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-4-7952B3?logo=bootstrap&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/demo-live-success?logo=github)
+![Last commit](https://img.shields.io/github/last-commit/ermiasgelaye/D3-challenge)
 
-These repository investigate the relationship between income, obesity, poverty with demographic factors and health risks for 50 states and the District of Columbia in the United States of America. Median age, household income, and poverty rates are plotted against the smoking, lack of healthcare, and obesity rates for each state or district.
-### Key Findings:
-- States or districts with lower income or higher poverty rates show higher rates of health risks.
-- The findings from the data show that there is a positive correlation between the states or districts poverty rate (%), and the rate of risk factors % (Obese, Smokers, and Lack of Health Care).
-- There is a negative correlation between household income (Median), and the rate of risk factors % (Obese, smokes, and lack of health care).
-- The age demographic is densely populated within the middle age range from age 30-45.
+An interactive D3 scatter plot exploring how **poverty, income and age** relate to **obesity, smoking and lack of healthcare** across the 50 US states and the District of Columbia.
 
+🔗 **[Live demo](https://ermiasgelaye.github.io/D3-challenge/)**
 
-### An Interactive Scatter Plot on the Patterns
+![Interactive scatter plot](Images/plot.gif)
 
-The chart showing the relationship between health factors (x-axis) obese, smokes, lack of health care with demographic factors (y-axis) age, household income, and poverty rate. To see the relationships, click on any of the font color green factors from the horizontal (x-axis) or vertical panel (y-axis), when the font color changed to black it means it’s active in the chart.The data points for each state represented by the blue-black background scatter plots in the active chart, the state code written on it with white font, and hover over it to see the detail information.
+## Key findings
 
-<img src="Images/plot.gif" height="500" width="900" />
+Pearson correlations across the 51 states and DC:
 
-## Correlations Discovered Between Health Risks and Age, Income
+| | Obesity | Smoking | Lacks healthcare |
+|---|---:|---:|---:|
+| **Poverty rate** | +0.46 | +0.52 | +0.52 |
+| **Median household income** | **−0.65** | **−0.66** | −0.43 |
+| **Median age** | −0.01 | +0.25 | −0.39 |
 
-### Poverty Rate or Household Income (Median) Versus Health Risks
-The findings from the data show that there is a positive correlation between the state or district poverty rate (%), and the rate of risk factors % (Obese, Smokers, and Lack of Health Care). When the poverty rate is higher the tendency to get obese, and bing smoker is higher. Lack of health care is also directly related to the poverty rate. In the finding, there is also a negative correlation between household income (Median), and the rate of risk factors % (Obese, smokes, and lack of health care). When income getting higher the prevalence of the risk factors becomes lower.
+- **Poorer states carry more health risk.** Higher poverty goes with higher obesity, smoking and lack of healthcare.
+- **Income is the strongest signal.** Higher median household income is strongly associated with lower obesity and smoking.
+- **Age tells us little.** State median ages fall in a narrow band (30.5–44.1, mostly 36–39). Age has no relationship with obesity, a weak positive one with smoking, and a moderate negative one with lack of healthcare.
 
-Researches also showed that socioeconomic status can be determined by a family's income level, education level, and occupational status. (Cowan CD & et al. 2012) In spite of the differences in definition between poverty and socioeconomic status, researchers agree that there is a clear, and established relationship between poverty, socioeconomic status, and health outcomes, including increased risk for disease and premature death.(Wagstaff. A 2002)
+These patterns match the broader research consensus that socioeconomic status, meaning income, education and occupation, is closely tied to health outcomes, including disease risk and premature death (Cowan et al., 2012; Wagstaff, 2002).
 
-### Age Versus Health Risks
-It is vague to conclude the relationship between age, and health risks from the data. However, the age demographic is densely populated within the middle age range from age 30-45. Studies showed that middle-age is the wider age range of lifetime, and at this stage, people start experiencing different life-threatening health factors. People with a good lifestyle and socio-economic status will cope successfully at this stage.
+## Features
 
-## Over All layout
-The dashboard looks as follows:
-<img src="Images/all.gif" height="500" width="900" />
+- **Six switchable axes.** Click any label to swap the x-axis (poverty, age, income) or the y-axis (obesity, smoking, lacks healthcare). The active label turns black.
+- **Animated transitions.** Points, axes and state labels animate to their new positions.
+- **Tooltips.** Hover over a state to see its exact values ([d3-tip](https://github.com/caged/d3-tip)).
 
-## Deployment
-This app is deployed public on GitHub page, click the following link to see how it looks like [D3 Time Home page](https://ermiasgelaye.github.io/D3-challenge/)
+![Dashboard](Images/all.gif)
 
-## About the Data
-[https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml),
+## Run locally
 
+Browsers block loading the CSV from `file://` URLs, so serve the folder over HTTP:
 
+```bash
+git clone https://github.com/ermiasgelaye/D3-challenge.git
+cd D3-challenge
+python -m http.server 8000      # then open http://localhost:8000
+```
 
-Trilogy Education Services © 2020. All Rights Reserved.
+## Project structure
+
+```
+D3-challenge/
+├── index.html
+├── d3time.png               # logo / favicon
+└── assets/
+    ├── js/app.js            # chart, axis switching, transitions, tooltips
+    ├── css/                 # page and D3 styles
+    └── data/data.csv        # state-level dataset
+```
+
+## Data
+
+State-level estimates from the **US Census Bureau American Community Survey** (poverty, income, age), now available at [data.census.gov](https://data.census.gov/), and the **CDC Behavioral Risk Factor Surveillance System** ([BRFSS](https://www.cdc.gov/brfss/)) (obesity, smoking, healthcare coverage).
+
+## References
+
+- Cowan, C. D., Hauser, R. M., et al. (2012). *Improving the Measurement of Socioeconomic Status for the National Assessment of Educational Progress.* National Center for Education Statistics.
+- Wagstaff, A. (2002). Poverty and health sector inequalities. *Bulletin of the World Health Organization*, 80(2), 97–105.
+
+## Author
+
+**Ermias Gelaye** · [Portfolio](https://ermiasgelaye.github.io) · [GitHub](https://github.com/ermiasgelaye)
